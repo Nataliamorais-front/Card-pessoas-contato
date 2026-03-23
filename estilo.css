@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+
+    background-color: #ebd8d0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.main-title{
+    font-family: 'Poppins', sans-serif;
+    color: #d3ab9e;
+}
+
+
+.list{
+    width: 90%;
+
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+
+.list-itens{
+    height: 300px;
+
+    flex: 0 1 250px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 1px 6px rgba(128, 128, 128, 0.76);
+    background-image: url(imagens/thumb02.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.list-itens-img img{
+    border-radius: 50%;
+    width: 80px;
+    margin-top: 100px;
+}
+
+.list-itens-contact{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.86rem;
+    color: #a3b18a;
+}
+
+.list-contact-action {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(128, 128, 128, 0.322);
+    padding: 12px;
+    
+
+}
+
+
+
+
+
